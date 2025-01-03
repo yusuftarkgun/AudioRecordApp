@@ -7,23 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63160D812D04EE03008D27D2 /* SpeechResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63160D802D04EDDA008D27D2 /* SpeechResultVC.swift */; };
+		63160D832D04FC97008D27D2 /* SaveAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63160D822D04FC7E008D27D2 /* SaveAudioManager.swift */; };
+		63160D862D05034B008D27D2 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63160D852D050347008D27D2 /* AudioModel.swift */; };
+		AD1247BA2D06412200C419D6 /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1247B92D06411F00C419D6 /* AudioTableViewCell.swift */; };
+		AD1247BE2D06E06800C419D6 /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1247BD2D06E06500C419D6 /* AudioCell.swift */; };
+		AD1247C82D07243300C419D6 /* wave.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1247C72D07243300C419D6 /* wave.json */; };
+		AD1247CA2D072DA400C419D6 /* deleted.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1247C92D072DA400C419D6 /* deleted.json */; };
+		AD1247CC2D07301600C419D6 /* coppied.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1247CB2D07301600C419D6 /* coppied.json */; };
+		AD1247CE2D07309500C419D6 /* saved.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1247CD2D07309500C419D6 /* saved.json */; };
+		AD353CD92D0183CE004106D7 /* SpeechRecognitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD353CD82D0183CE004106D7 /* SpeechRecognitionVC.swift */; };
+		AD8E28B32CFF1D02004D3051 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E28B22CFF1D02004D3051 /* HomeVC.swift */; };
+		AD8E28B52CFF1D22004D3051 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E28B42CFF1D22004D3051 /* PaywallVC.swift */; };
+		AD9131C62D004D1E001BB338 /* SavedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9131C52D004D1E001BB338 /* SavedVC.swift */; };
+		AD9131C82D004D3C001BB338 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9131C72D004D3C001BB338 /* SettingsVC.swift */; };
+		AD9131CE2D007D3E001BB338 /* MainHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9131CD2D007D3E001BB338 /* MainHomeVC.swift */; };
+		AD9131D02D0085AD001BB338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD9131CF2D0085AD001BB338 /* GoogleService-Info.plist */; };
 		ADB706ED2CFEE01400988002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB706EC2CFEE01400988002 /* AppDelegate.swift */; };
 		ADB706EF2CFEE01400988002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB706EE2CFEE01400988002 /* SceneDelegate.swift */; };
-		ADB706F12CFEE01400988002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB706F02CFEE01400988002 /* ViewController.swift */; };
-		ADB706F42CFEE01400988002 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADB706F32CFEE01400988002 /* Base */; };
+		ADB706F12CFEE01400988002 /* Onboarding1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB706F02CFEE01400988002 /* Onboarding1VC.swift */; };
 		ADB706F62CFEE01500988002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB706F52CFEE01500988002 /* Assets.xcassets */; };
 		ADB706F92CFEE01500988002 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADB706F82CFEE01500988002 /* Base */; };
+		ADB707022CFEE8F300988002 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = ADB707012CFEE8F300988002 /* NeonSDK */; };
+		ADC011B22D02D75100E78491 /* RateUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC011B12D02D75100E78491 /* RateUsVC.swift */; };
+		ADC011B42D02D79A00E78491 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC011B32D02D79A00E78491 /* ContactUsVC.swift */; };
+		ADC011B62D02FC8E00E78491 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC011B52D02FC8E00E78491 /* OpenAIService.swift */; };
+		ADD831672D0A3A51003C764F /* AudioDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD831662D0A3A42003C764F /* AudioDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63160D802D04EDDA008D27D2 /* SpeechResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechResultVC.swift; sourceTree = "<group>"; };
+		63160D822D04FC7E008D27D2 /* SaveAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAudioManager.swift; sourceTree = "<group>"; };
+		63160D852D050347008D27D2 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		AD1247B92D06411F00C419D6 /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		AD1247BD2D06E06500C419D6 /* AudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
+		AD1247C72D07243300C419D6 /* wave.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wave.json; sourceTree = "<group>"; };
+		AD1247C92D072DA400C419D6 /* deleted.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = deleted.json; sourceTree = "<group>"; };
+		AD1247CB2D07301600C419D6 /* coppied.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coppied.json; sourceTree = "<group>"; };
+		AD1247CD2D07309500C419D6 /* saved.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = saved.json; sourceTree = "<group>"; };
+		AD353CD82D0183CE004106D7 /* SpeechRecognitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionVC.swift; sourceTree = "<group>"; };
+		AD8E28B22CFF1D02004D3051 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AD8E28B42CFF1D22004D3051 /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		AD9131C52D004D1E001BB338 /* SavedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVC.swift; sourceTree = "<group>"; };
+		AD9131C72D004D3C001BB338 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		AD9131CD2D007D3E001BB338 /* MainHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeVC.swift; sourceTree = "<group>"; };
+		AD9131CF2D0085AD001BB338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADB706E92CFEE01400988002 /* AudioRecApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB706EC2CFEE01400988002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB706EE2CFEE01400988002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADB706F02CFEE01400988002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADB706F32CFEE01400988002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADB706F02CFEE01400988002 /* Onboarding1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1VC.swift; sourceTree = "<group>"; };
 		ADB706F52CFEE01500988002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB706F82CFEE01500988002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB706FA2CFEE01500988002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC011B12D02D75100E78491 /* RateUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsVC.swift; sourceTree = "<group>"; };
+		ADC011B32D02D79A00E78491 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		ADC011B52D02FC8E00E78491 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		ADD831662D0A3A42003C764F /* AudioDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +70,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB707022CFEE8F300988002 /* NeonSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63160D842D050341008D27D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63160D852D050347008D27D2 /* AudioModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD1247CF2D07309D00C419D6 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				AD1247CD2D07309500C419D6 /* saved.json */,
+				AD1247C92D072DA400C419D6 /* deleted.json */,
+				AD1247CB2D07301600C419D6 /* coppied.json */,
+				AD1247C72D07243300C419D6 /* wave.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		AD1722D22D023F8F004A13FD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ADB706F02CFEE01400988002 /* Onboarding1VC.swift */,
+				AD8E28B42CFF1D22004D3051 /* PaywallVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AD1722D32D023FB5004A13FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD831662D0A3A42003C764F /* AudioDetailVC.swift */,
+				AD9131C52D004D1E001BB338 /* SavedVC.swift */,
+				AD9131C72D004D3C001BB338 /* SettingsVC.swift */,
+				AD8E28B22CFF1D02004D3051 /* HomeVC.swift */,
+				ADC011B12D02D75100E78491 /* RateUsVC.swift */,
+				ADC011B32D02D79A00E78491 /* ContactUsVC.swift */,
+				AD9131CD2D007D3E001BB338 /* MainHomeVC.swift */,
+				AD353CD82D0183CE004106D7 /* SpeechRecognitionVC.swift */,
+				63160D802D04EDDA008D27D2 /* SpeechResultVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD2113AE2D102E5C009D3B52 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ADB706EE2CFEE01400988002 /* SceneDelegate.swift */,
+				ADB706F72CFEE01500988002 /* LaunchScreen.storyboard */,
+				ADB706EC2CFEE01400988002 /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		AD353CD72D0183C0004106D7 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				63160D822D04FC7E008D27D2 /* SaveAudioManager.swift */,
+				ADC011B52D02FC8E00E78491 /* OpenAIService.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
 		ADB706E02CFEE01400988002 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +159,27 @@
 		ADB706EB2CFEE01400988002 /* AudioRecApp */ = {
 			isa = PBXGroup;
 			children = (
-				ADB706EC2CFEE01400988002 /* AppDelegate.swift */,
-				ADB706EE2CFEE01400988002 /* SceneDelegate.swift */,
-				ADB706F02CFEE01400988002 /* ViewController.swift */,
-				ADB706F22CFEE01400988002 /* Main.storyboard */,
+				AD2113AE2D102E5C009D3B52 /* Others */,
+				ADD831692D0A3A73003C764F /* View */,
+				AD1247CF2D07309D00C419D6 /* Lottie */,
+				63160D842D050341008D27D2 /* Models */,
+				AD1722D32D023FB5004A13FD /* ViewControllers */,
+				AD1722D22D023F8F004A13FD /* Onboarding */,
+				AD353CD72D0183C0004106D7 /* ServiceManager */,
 				ADB706F52CFEE01500988002 /* Assets.xcassets */,
-				ADB706F72CFEE01500988002 /* LaunchScreen.storyboard */,
+				AD9131CF2D0085AD001BB338 /* GoogleService-Info.plist */,
 				ADB706FA2CFEE01500988002 /* Info.plist */,
 			);
 			path = AudioRecApp;
+			sourceTree = "<group>";
+		};
+		ADD831692D0A3A73003C764F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD1247BD2D06E06500C419D6 /* AudioCell.swift */,
+				AD1247B92D06411F00C419D6 /* AudioTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,9 @@
 			dependencies = (
 			);
 			name = AudioRecApp;
+			packageProductDependencies = (
+				ADB707012CFEE8F300988002 /* NeonSDK */,
+			);
 			productName = AudioRecApp;
 			productReference = ADB706E92CFEE01400988002 /* AudioRecApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +229,9 @@
 				Base,
 			);
 			mainGroup = ADB706E02CFEE01400988002;
+			packageReferences = (
+				ADB707002CFEE8F300988002 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+			);
 			productRefGroup = ADB706EA2CFEE01400988002 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +247,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB706F62CFEE01500988002 /* Assets.xcassets in Resources */,
+				AD1247C82D07243300C419D6 /* wave.json in Resources */,
+				AD1247CE2D07309500C419D6 /* saved.json in Resources */,
+				AD1247CA2D072DA400C419D6 /* deleted.json in Resources */,
 				ADB706F92CFEE01500988002 /* Base in Resources */,
-				ADB706F42CFEE01400988002 /* Base in Resources */,
+				AD1247CC2D07301600C419D6 /* coppied.json in Resources */,
+				AD9131D02D0085AD001BB338 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +263,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB706F12CFEE01400988002 /* ViewController.swift in Sources */,
+				AD1247BE2D06E06800C419D6 /* AudioCell.swift in Sources */,
+				AD8E28B52CFF1D22004D3051 /* PaywallVC.swift in Sources */,
+				ADB706F12CFEE01400988002 /* Onboarding1VC.swift in Sources */,
+				AD1247BA2D06412200C419D6 /* AudioTableViewCell.swift in Sources */,
+				AD8E28B32CFF1D02004D3051 /* HomeVC.swift in Sources */,
 				ADB706ED2CFEE01400988002 /* AppDelegate.swift in Sources */,
+				ADC011B42D02D79A00E78491 /* ContactUsVC.swift in Sources */,
+				ADD831672D0A3A51003C764F /* AudioDetailVC.swift in Sources */,
+				AD9131CE2D007D3E001BB338 /* MainHomeVC.swift in Sources */,
+				63160D812D04EE03008D27D2 /* SpeechResultVC.swift in Sources */,
+				ADC011B22D02D75100E78491 /* RateUsVC.swift in Sources */,
+				AD9131C62D004D1E001BB338 /* SavedVC.swift in Sources */,
+				63160D832D04FC97008D27D2 /* SaveAudioManager.swift in Sources */,
 				ADB706EF2CFEE01400988002 /* SceneDelegate.swift in Sources */,
+				AD9131C82D004D3C001BB338 /* SettingsVC.swift in Sources */,
+				AD353CD92D0183CE004106D7 /* SpeechRecognitionVC.swift in Sources */,
+				ADC011B62D02FC8E00E78491 /* OpenAIService.swift in Sources */,
+				63160D862D05034B008D27D2 /* AudioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADB706F22CFEE01400988002 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADB706F32CFEE01400988002 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADB706F72CFEE01500988002 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -275,6 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -297,9 +431,9 @@
 				INFOPLIST_FILE = AudioRecApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +459,9 @@
 				INFOPLIST_FILE = AudioRecApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADB707002CFEE8F300988002 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADB707012CFEE8F300988002 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB707002CFEE8F300988002 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADB706E12CFEE01400988002 /* Project object */;
 }
