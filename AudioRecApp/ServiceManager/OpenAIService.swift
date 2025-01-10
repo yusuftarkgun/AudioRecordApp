@@ -11,7 +11,7 @@ import UIKit
 final class OpenAIService: NSObject {
     static let shared = OpenAIService()
     
-    private let apiKey = "sk-proj-gD9qZb9zwGO361fSCz8JT3BlbkFJBqfWYJH3GtO43JPauZHF"
+    private let apiKey = ""
     private let apiUrl = "https://api.openai.com/v1/chat/completions"
     
     func getSummary(from text: String, completion: @escaping (String?) -> Void) {
